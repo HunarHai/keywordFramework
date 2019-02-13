@@ -146,3 +146,4 @@ $RECYCLE.BIN/
 
 # Portable Document Format
 *.pdf
+/test-output/
