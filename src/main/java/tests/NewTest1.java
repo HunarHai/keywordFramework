@@ -2,6 +2,7 @@ package tests;
 
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.annotations.AfterClass;
 //import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -21,9 +22,9 @@ public class NewTest1 {
 	
 	@Test
 	public void openMyBlog() {
-		System.out.println("Test method...started");
+		System.out.println("Test method...started > "+getClass().getSimpleName());
 /*		driver.get("https://www.softwaretestingmaterial.com/");*/
-		System.out.println("Test method...completed");
+		System.out.println("Test method...completed > "+getClass().getSimpleName());
 	}
 	
 	@AfterClass
