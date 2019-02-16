@@ -11,7 +11,7 @@ public class NewTest2 {
 /*    private WebDriver driver;		*/
 	@Test				
 	public void testEasy() {
-		System.out.println("Test method...");
+		System.out.println("Test method..."+getClass().getSimpleName());
 /*		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 		*/
